@@ -1,4 +1,3 @@
-import { render } from "react-dom";
 import React, { useState } from "react";
 import { useSprings, animated, interpolate } from "react-spring";
 import { useGesture } from "react-use-gesture";
@@ -75,6 +74,7 @@ export default function Deck() {
           (x, y) => `translate3d(${x}px,${y}px,0)`
         ),
       }}
+      className="CardStack"
     >
       {/* This is the card itself, we're binding our gesture to it (and inject its index so we know which is which) */}
       <animated.div

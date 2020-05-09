@@ -41,7 +41,7 @@ const Tree = memo(({ children, name, style, defaultOpen = false }) => {
 
 const Nav = () => (
   <>
-    <Tree name="Reference" defaultOpen>
+    <Tree name="Reference Examples" defaultOpen>
       <Tree name="React Router">
         <Link to="/react-router/basic">
           <Tree name="basic" />
@@ -81,18 +81,18 @@ const Nav = () => (
         <Link to="/react-spring/animating-auto">
           <Tree name="AnimatingAuto" />
         </Link>
-        <Link to="/react-spring/3d-card">
+        {/* <Link to="/react-spring/3d-card">
           <Tree name="Card3d" />
-        </Link>
-        <Link to="/react-spring/card-stack">
+        </Link> */}
+        {/* <Link to="/react-spring/card-stack">
           <Tree name="CardStack" />
-        </Link>
-        <Link to="/react-spring/draggable-list">
+        </Link> */}
+        {/* <Link to="/react-spring/draggable-list">
           <Tree name="DraggableList" />
-        </Link>
-        <Link to="/react-spring/emulating-css-keyframes">
+        </Link> */}
+        {/* <Link to="/react-spring/emulating-css-keyframes">
           <Tree name="EmulatingCSSKeyframes" />
-        </Link>
+        </Link> */}
         <Link to="/react-spring/flip-card">
           <Tree name="FlipCard" />
         </Link>
@@ -114,27 +114,27 @@ const Nav = () => (
         <Link to="/react-spring/masonry-grid">
           <Tree name="MasonryGrid" />
         </Link>
-        <Link to="/react-spring/mouse-parallax">
+        {/* <Link to="/react-spring/mouse-parallax">
           <Tree name="MouseParallax" />
-        </Link>
+        </Link> */}
         <Link to="/react-spring/multistage-transition">
           <Tree name="MultistageTransition" />
         </Link>
-        <Link to="/react-spring/notification-hub">
+        {/* <Link to="/react-spring/notification-hub">
           <Tree name="NotificationHub" />
-        </Link>
+        </Link> */}
         <Link to="/react-spring/scroll-parallax">
           <Tree name="ScrollParallax" />
         </Link>
         <Link to="/react-spring/simple-transition">
           <Tree name="SimpleTransition" />
         </Link>
-        <Link to="/react-spring/spring-reset-script">
+        {/* <Link to="/react-spring/spring-reset-script">
           <Tree name="SpringResetScript" />
         </Link>
         <Link to="/react-spring/spring-scripting">
           <Tree name="SpringScripting" />
-        </Link>
+        </Link> */}
         <Link to="/react-spring/svg-filter">
           <Tree name="SVGFilter" />
         </Link>
@@ -144,9 +144,9 @@ const Nav = () => (
         <Link to="/react-spring/treeview">
           <Tree name="Treeview" />
         </Link>
-        <Link to="/react-spring/view-pager">
+        {/* <Link to="/react-spring/view-pager">
           <Tree name="ViewPager" />
-        </Link>
+        </Link> */}
       </Tree>
 
       <Tree name="Hooks">

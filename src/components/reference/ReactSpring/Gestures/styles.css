@@ -1,7 +1,4 @@
-/* * {
-  box-sizing: border-box;
-}
-
+/* 
 html,
 body {
   margin: 0;
@@ -17,9 +14,9 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-}
+} */
 
-#root > div {
+.Gestures {
   width: 100px;
   height: 100px;
   background: hotpink;
@@ -32,6 +29,6 @@ body {
   white-space: pre;
 }
 
-#root > div:active {
+.Gestures:active {
   cursor: -webkit-grabbing;
-} */
+}

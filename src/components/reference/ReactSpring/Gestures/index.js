@@ -19,6 +19,7 @@ export default function Pull() {
       style={{
         transform: xy.interpolate((x, y) => `translate3d(${x}px,${y}px,0)`),
       }}
+      className="Gestures"
     />
   );
 }

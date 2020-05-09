@@ -18,7 +18,7 @@ export default function App() {
   // Hook3: Hold items
   const [items, set] = useState(data);
   // Hook4: shuffle data every 2 seconds
-  useEffect(() => void setInterval(() => set(shuffle), 2000), []);
+  useEffect(() => void setInterval(() => set(shuffle), 5000), []);
   // Form a grid of stacked items using width & columns we got from hooks 1 & 2
   let heights = new Array(columns).fill(0); // Each column gets a height starting with zero
   let gridItems = items.map((child, i) => {

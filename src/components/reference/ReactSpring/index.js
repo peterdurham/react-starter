@@ -8,28 +8,28 @@ import {
   useRouteMatch,
 } from "react-router-dom";
 
-// import AnimatingAuto from "./AnimatingAuto/index";
+import AnimatingAuto from "./AnimatingAuto/index";
 import Card3d from "./Card3d/index";
 // import CardStack from "./CardStack/index";
 // import DraggableList from "./DraggableList/index";
-// import EmulatingCSSKeyframes from "./EmulatingCSSKeyframes/index";
+import EmulatingCSSKeyframes from "./EmulatingCSSKeyframes/index";
 import FlipCard from "./FlipCard/index";
-// import Gestures from "./Gestures/index";
-// import GestureSlider from "./GestureSlider/index";
-// import GooBlob from "./GooBlob/index";
-// import ImageFade from "./ImageFade/index";
-// import ListReordering from "./ListReordering/index";
-// import MasonryGrid from "./MasonryGrid/index";
-// import MouseParallax from "./MouseParallax/index";
-// import MultistageTransition from "./MultistageTransition/index";
+import Gestures from "./Gestures/index";
+import GestureSlider from "./GestureSlider/index";
+import GooBlob from "./GooBlob/index";
+import ImageFade from "./ImageFade/index";
+import ListReordering from "./ListReordering/index";
+import MasonryGrid from "./MasonryGrid/index";
+import MouseParallax from "./MouseParallax/index";
+import MultistageTransition from "./MultistageTransition/index";
 // import NotificationHub from "./NotificationHub/index";
 // import ScrollParallax from "./ScrollParallax/index";
-// import SimpleTransition from "./SimpleTransition/index";
+import SimpleTransition from "./SimpleTransition/index";
 // import SpringResetScript from "./SpringResetScript/index";
 // import SpringScripting from "./SpringScripting/index";
-// import SVGFilter from "./SVGFilter/index";
-// import Trails from "./Trails/index";
-// import Treeview from "./Treeview/index";
+import SVGFilter from "./SVGFilter/index";
+import Trails from "./Trails/index";
+import Treeview from "./Treeview/index";
 import ViewPager from "./ViewPager/index";
 
 export default function ReactSpring() {
@@ -66,31 +66,29 @@ function Topic() {
     <div className="content-box">
       <h3>{topicId}</h3>
       {topicId === "3d-card" && <Card3d />}
-
-      {/* {topicId === "animating-auto" && <AnimatingAuto />}
-      {topicId === "card-stack" && <CardStack />}
-      {topicId === "draggable-list" && (
+      {topicId === "animating-auto" && <AnimatingAuto />}
+      {/* {topicId === "card-stack" && <CardStack />} */}
+      {/* {topicId === "draggable-list" && (
         <DraggableList items={"Lorem ipsum dolor sit".split(" ")} />
-      )}
-      {topicId === "emulating-css-keyframes" && <EmulatingCSSKeyframes />} */}
+      )} */}
+      {topicId === "emulating-css-keyframes" && <EmulatingCSSKeyframes />}
       {topicId === "flip-card" && <FlipCard />}
-      {/* {topicId === "gestures" && <Gestures />}
+      {topicId === "gestures" && <Gestures />}
       {topicId === "gesture-slider" && <GestureSlider>Slide.</GestureSlider>}
       {topicId === "goo-blob" && <GooBlob />}
       {topicId === "image-fade" && <ImageFade />}
-
       {topicId === "list-reordering" && <ListReordering />}
       {topicId === "masonry-grid" && <MasonryGrid />}
       {topicId === "mouse-parallax" && <MouseParallax />}
       {topicId === "multistage-transition" && <MultistageTransition />}
-      {topicId === "notification-hub" && <NotificationHub />}
+      {/* {topicId === "notification-hub" && <NotificationHub />} */}
       {topicId === "scroll-parallax" && <ScrollParallax />}
       {topicId === "simple-transition" && <SimpleTransition />}
       {topicId === "spring-reset-script" && <SpringResetScript />}
       {topicId === "spring-scripting" && <SpringScripting />}
       {topicId === "svg-filter" && <SVGFilter />}
-      {topicId === "trails" && <Trails />} */}
-      {/* {topicId === "treeview" && <Treeview />} */}
+      {topicId === "trails" && <Trails />}
+      {topicId === "treeview" && <Treeview />}
       {topicId === "view-pager" && <ViewPager />}
     </div>
   );
