@@ -8,8 +8,8 @@ import {
   useRouteMatch,
 } from "react-router-dom";
 
-import Axios from "./axios";
-import Fetch from "./fetch";
+import Axios from "./Axios";
+import Fetch from "./Fetch";
 
 export default function FetchData() {
   let { path, url } = useRouteMatch();
