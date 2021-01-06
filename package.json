@@ -18,7 +18,7 @@
     "parcel-bundler": "^1.12.4"
   },
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "lodash-es": "^4.17.15",
     "lodash-move": "^1.1.1",
     "lorem-ipsum": "^2.0.3",
